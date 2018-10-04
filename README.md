@@ -1,2 +1,2 @@
-# blokchcain_slides
-made for SIGcoin talk @ Edinburgh University 2018-02-10
+High-level presentation of the way bitcoin works, smart contracts, blockchain applications
+and future practical and research directions. In three formats for all tastes
