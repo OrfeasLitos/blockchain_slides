@@ -1,0 +1,79 @@
+4 Useful for digital money
+  Bitcoin: the first blockchain
+-------------------------
+13 Bob broadcasts new tx
+-------------------------
+16 Block can have any number of txs (within limits)
+   Don't confuse chain of blocks with graph of txs
+-------------------------
+17 Last block called... (next slide)
+-------------------------
+18 How are new blocks made? Let's make some space
+-------------------------
+19 Received a new block from the network
+
+- no spending previously spent outputs (double spend)
+- no previously seen txs
+- all txs must spend utxos
+
+Block id hard to make, proves miner tried. Thus Blocks relatively rare
+-------------------------
+21 infinite domain, finite range -> collisions
+-------------------------
+22 Easy = polynomial (can hash files fast)
+   Hard = exponential (have to hash random strings until match)
+
+   Prob[collision] < Prob[meteorite]
+-------------------------
+23 Prob[collision] < Prob[meteorite] because many bits
+
+   Notice many zeroes
+-------------------------
+24 Bitcoin secret sauce
+
+   How many zeroes? Adjusts automatically
+   Miners try random nonces until small hash
+-------------------------
+25 Network latency may cause two miners to find a block simultaneously
+-------------------------
+27 To trust a blockchain, ask for these two properties
+   Append-only ledger!
+   Bitcoin technical breakthrough:
+     unauthenticated (~= decentralised ~= no single point of failure)
+     AND resilient to bad actors
+-------------------------
+30 Again, basic operation is a transaction
+   Turing complete
+31 Careful...
+-------------------------
+32 Arrows unnecessary
+-------------------------
+33 Previous king gets refunded
+   New king can brag!
+-------------------------
+34 Discouraging? It's a challenge!
+   Blockchain engineers really wanted
+-------------------------
+36 Tradeable, breedable
+   Smart contract success story
+   Drove ETH prive up, almost filled blocks!
+   ERC721 token
+   Digital assets discussion
+-------------------------
+37 I'm not an economist, don't really understand it
+     how does overcollateralisation work?
+
+   Success story: complex decentralised system
+   without any successful attacks deployed so far,
+   written in Solidity
+-------------------------
+38 - Who can create blocks, transactions?
+   - How do we agree on one history?
+   - What data on chain? (e.g. in zcash every tx is proof
+       that money is only transferred, not created
+-------------------------
+39 Impossible to check every tx on every computer
+-------------------------
+40 Can also do multi-hop payments
+-------------------------
+41 Sounds impossible, but is real
